@@ -151,6 +151,8 @@ int main(int argc, char* args[]){
 			SDL_RenderPresent(renderer);
 			SDL_PollEvent(&event);
 			SDL_Delay(16);
+
+
 			// SDL_QUIT event has come in, quit. 
 			if (event.type == SDL_QUIT)
 			{
