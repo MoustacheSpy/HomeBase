@@ -3,7 +3,18 @@
 #include <iostream>     // std::cout
 #include <algorithm>    // std::max
 #include <math.h>
-
+#include "SDL.h"
+#include <vector>
+typedef struct {
+	SDL_Point p1 = { 0,0 };
+	SDL_Point p2 = { 0,0 };
+	bool angle;
+	int idxParent = 0;
+	int idxChild = 0;
+}SSource_Bone;
+typedef struct {
+	std::vector<SSource_Bone> bones;
+} SSource_Amature;
 double maxdouble(double val1, double val2) {
 	if (val1 > val2)
 		return val1;
