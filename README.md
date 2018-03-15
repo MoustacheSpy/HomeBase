@@ -1,0 +1,2 @@
+# HomeBase
+-----this is a shitty game I (tried) to make ages ago. When I (tried) to make this abomination of a shitfest I didnt even know how to properly code anything. This is purely for me to cringe at in the future.-------A game about a batter who lost something or someone special, joining the secret military to take out important targets stealthily and regain his belongings along with some old memories
